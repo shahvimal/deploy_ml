@@ -6,11 +6,13 @@ cors = CORS(app)
 
 @app.route("/")
 def home():
+    print("home route")
     # return render_template("home.html", ps = ps, acc = acc, rcs = rcs)
     return jsonify(ps = ps, acc = acc, rcs = rcs, test="../static/testplot.png")
 
 @app.route("/hello")
 def hello():
+    print("hello route")
     # return render_template("home.html", ps = ps, acc = acc, rcs = rcs)
     return ('hello')
   
