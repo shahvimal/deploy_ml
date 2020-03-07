@@ -12,4 +12,4 @@ def home():
 if __name__ == "__main__":
     from random_forest_classification import ps, acc, rcs
     # app.run(debug=True)
-    app.run(host=’0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
